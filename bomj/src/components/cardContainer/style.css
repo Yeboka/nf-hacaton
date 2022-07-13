@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+body {
+    margin: 0;
+    color: white;
+    font-family: 'Montserrat', sans-serif;  
+}
+
+img {
+    image-rendering: optimizeQuality;
+}
+
+.container {
+
+    width: 100%;
+    margin-bottom: 1px;
+    margin-top: 50px;
+    height: 100vh;
+}
+
+.personCard {
+    padding: 20px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 60px 0;   
+    
+}
+
+.personCard h2{
+    color:forestgreen;
+    font-size: 30px;
+    font-family: One_Dance;
+}
+
+.personCard p {
+    color:rgb(72, 201, 21);
+    max-width: 800px;
+    
+}
+
+.motivationText {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.ramka {
+    width: 156px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e1edbd;
+    margin-right: 30px;
+    box-shadow: 4px 7px 3px rgba(0, 0, 0, 0.4);
+}
+
+.photo {
+    width: 150px;
+    height: 97%;
+}
+
+.facts {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    
+    width: 31%;
+    height: 100px;
+    background-color: #228b22;
+    margin: 10px;
+    box-shadow: 4px 7px 3px rgba(37, 37, 37, 0.4);
+    color: #dce9dd;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 15px;
+}
+
+.digits {
+    font-weight: bold;
+    font-size: 25px;
+}
