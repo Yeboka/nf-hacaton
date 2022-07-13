@@ -36,7 +36,7 @@ const picks = [
         name: "Nazarbayev",
         title: "This is NN, he is ...(You know who he is), His fortune is ~200klimon.",
         photo: img3,
-        amount: 200000000,
+        amount: 200000000000,
         zppersecond: 3
     },
     {
@@ -93,7 +93,7 @@ export const CardContainer = ({pick, input}) => {
         {
             id: 6,
             text: "After this time you will earn to the Newest Bugatti Chiron (days)",
-            amount: (3000000 / (input / 30)).toFixed(5)
+            amount: (3000000 / (input / 30)).toFixed(0)
         },
         {
             id: 7,
@@ -125,7 +125,7 @@ export const CardContainer = ({pick, input}) => {
                 <h2>{select.name}</h2>
                 <p>{select.title}</p>
                 <p className='motivationText'>
-                    If you don't spend your money for nothing you will be as him after {(select.amount/(input/30)).toFixed(3)} days ({(select.amount/(input*12)).toFixed(3)} years).
+                    If you don't spend your money for nothing you will be as him after <span>{(select.amount/(input/30)).toFixed(3)}</span>  days <span>({(select.amount/(input*12)).toFixed(3)} years)</span>.
                 </p>
             </div>
         </div>

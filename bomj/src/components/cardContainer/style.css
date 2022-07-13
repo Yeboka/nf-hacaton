@@ -28,6 +28,10 @@ img {
     
 }
 
+.personCard span {
+    color:dimgrey;
+}
+
 .personCard h2{
     color:forestgreen;
     font-size: 30px;
@@ -71,7 +75,7 @@ img {
 .card {
     
     width: 31%;
-    height: 100px;
+    height: 130px;
     background-color: #228b22;
     margin: 10px;
     box-shadow: 4px 7px 3px rgba(37, 37, 37, 0.4);
@@ -87,3 +91,37 @@ img {
     font-weight: bold;
     font-size: 25px;
 }
+
+@media screen and (max-width: 600px) {
+    .card {
+    
+        width: 37%;
+        height: 200px;
+        background-color: #3d6e3d;
+        margin: 10px;
+        box-shadow: 4px 7px 3px rgba(37, 37, 37, 0.4);
+        color: #dce9dd;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 15px;
+    }
+
+    .photo {
+        width: 150px;
+        height: 160px;
+    }
+
+    .ramka {
+        width: 156px;
+        height: 166px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #e1edbd;
+        margin-right: 30px;
+        box-shadow: 4px 7px 3px rgba(0, 0, 0, 0.4);
+    }
+  }
+  
