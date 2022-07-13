@@ -107,7 +107,7 @@ export const CardContainer = ({pick, input}) => {
         },
         {
             id: 9,
-            text: "How many times you can invite Kairat Nurtas to your Toi",
+            text: "How many times you can invite Kairat Nurtas to your Toi (8000$)",
             amount: (input/8000).toFixed(4)
         }
     ]
