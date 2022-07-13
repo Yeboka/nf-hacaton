@@ -69,7 +69,7 @@ function App() {
           <span onClick={() => handleSubmit()}>push</span>
         </div>    
       </div>
-      {(isShow && none) ? <CardContainer pick = {age} input = {input}/> : ''}
+      {(isShow && none) ? <CardContainer pick = {age} input = {input}/> : <div className='promt'>Choose the name of person with whose salary would you like to compare your, enter your salary and click PUSH</div>}
       
       </div>
   );
