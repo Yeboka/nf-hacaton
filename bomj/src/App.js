@@ -38,7 +38,7 @@ function App() {
   return (
 
     <div className="App">
-      <div className='w'>
+      
       <div className='wrapper'>
         <div>
           Choose person
@@ -72,7 +72,6 @@ function App() {
       {(isShow && none) ? <CardContainer pick = {age} input = {input}/> : ''}
       
       </div>
-    </div>
   );
 }
 

@@ -92,7 +92,7 @@ export const CardContainer = ({pick, input}) => {
         },
         {
             id: 6,
-            text: "After this time you will earn to Newest Bugatti Chiron (days)",
+            text: "After this time you will earn to the Newest Bugatti Chiron (days)",
             amount: (3000000 / (input / 30)).toFixed(5)
         },
         {
